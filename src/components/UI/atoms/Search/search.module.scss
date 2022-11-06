@@ -1,0 +1,47 @@
+.root {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(216, 216, 216);
+  border-radius: 6px;
+
+  &__input {
+    width: 100%;
+    padding: 2px 4px 2px 4px;
+    border-radius: 6px;
+    color: black;
+    border: 0px;
+    background-color: rgb(216, 216, 216);
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fc8593;
+    width: 80px;
+    height: 48px;
+    color: white;
+    border-radius: 6px;
+    border: 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #fda7b193;
+    }
+
+    &__icon {
+      height: 24px;
+      width: 24px;
+    }
+
+  }
+}

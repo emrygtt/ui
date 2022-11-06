@@ -1,0 +1,13 @@
+.root {
+  margin: 0px 8px 40px 8px;
+
+  &__header {
+    font-weight: 600;
+  }
+
+  &__list {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

@@ -1,0 +1,35 @@
+.root {
+  margin: 12px;
+  text-align: center;
+
+  &__button {
+    background: #f34d60;
+    color: white;
+    margin: 4px;
+    padding: 3px 4px 3px 4px;
+    border-radius: 3px;
+    border: 0px;
+    transition: background 0.2s;
+
+    &:hover {
+      background: #f34d6044;
+      cursor: pointer;
+    }
+  }
+}
+
+.loading {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  margin: 12px;
+  display: inline-block;
+  text-align: center;
+
+  &__item {
+    height: 28px;
+    width: 80px;
+    background-color: rgba(168, 166, 166, 0.562);
+    margin: 4px;
+    border-radius: 3px;
+    display: inline-block;
+  }
+}

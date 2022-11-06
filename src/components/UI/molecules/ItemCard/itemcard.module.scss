@@ -1,0 +1,32 @@
+.root {
+
+  a {
+    text-decoration: none;
+
+  }
+
+  &__content {
+    border: 1px solid;
+    height: 200px;
+
+    border-color: #81B1FA;
+    color: gray;
+    border-radius: 6px;
+    background: #ecaef986;
+    padding: 12px;
+    transition: scale 0.3s, background 0.3s;
+
+    &:hover {
+      scale: 1.03;
+      background: #eed6f3b4;
+      cursor: pointer;
+    }
+  }
+
+  .title {
+    color: red;
+    font-weight: 600;
+    margin-right: 8px;
+    font-size: 17px;
+  }
+}
